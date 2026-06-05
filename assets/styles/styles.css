@@ -780,6 +780,45 @@ footer {
     transform: translateY(-3px);
 }
 
+.contact-page {
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 0 100px;
+}
+
+.contact-container {
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.contact-info,
+.contact-form {
+    flex: 1;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 15px;
+    border: 1px solid var(--main-red);
+    border-radius: 10px;
+}
+
+.contact-form button {
+    background-color: var(--main-red);
+    color: var(--text-white);
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
 @media (max-width: 768px) {
 
     nav {
@@ -876,6 +915,10 @@ footer {
     .newsletter h2 {
         margin-right: 0;
         text-align: center;
+    }
+
+    .contact-container {
+        flex-direction: column;
     }
 }
 
@@ -1085,6 +1128,18 @@ footer {
     .account-left {
         padding: 30px 20px;
         text-align: center;
+    }
+
+    .contact-page {
+        padding: 30px;
+    }
+
+    .contact-page h2 {
+        font-size: 16px;
+    }
+
+    .contact-container p {
+        font-size: 12px;
     }
 }
 
