@@ -34,4 +34,4 @@ This project was developed using HTML5, CSS3, and JavaScript. The website includ
 
 ## Author
 
-Ani Mamuchishvili
+Developed as a university web development project.
