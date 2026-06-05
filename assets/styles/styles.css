@@ -208,7 +208,6 @@ header {
 .prod-name {
     display: block;
     color: var(--text-black);
-    text-decoration: none;
     font-weight: 500;
     margin-top: 18px;
 }
@@ -216,7 +215,6 @@ header {
 .prod-price {
     display: block;
     color: var(--text-black);
-    text-decoration: none;
     font-weight: 600;
     margin-top: 18px;
 }
@@ -817,6 +815,20 @@ footer {
     border: none;
     border-radius: 10px;
     cursor: pointer;
+}
+
+.contact-info p, i {
+    margin-right: 10px;
+}
+
+.contact-info p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-info a, i {
+    color: var(--main-red);
 }
 
 @media (max-width: 768px) {
