@@ -1,37 +1,84 @@
-# Levi's Website
+# Levi's Inspired E-Commerce Website
 
-A responsive front-end website inspired by the Levi's brand.
+A responsive multi-page e-commerce website inspired by Levi's, developed using HTML, CSS, and JavaScript.
 
-## Project Overview
-
-This project was developed using HTML5, CSS3, and JavaScript. The website includes multiple pages connected through navigation and follows responsive design principles for desktop, tablet, and mobile devices.
-
-## Pages
-
-- Home
-- Shop
-- Women
-- About Us
-- Account
+The project focuses on modern front-end development, responsive design, and user-friendly navigation across desktop, tablet, and mobile devices.
 
 ## Features
 
-- Responsive Design
-- Flexbox & CSS Grid Layouts
-- CSS Animations and Transitions
-- Semantic HTML5 Structure
-- Newsletter Section
-- Product Filtering Interface
-- Hamburger Menu
-- Sticky Header
-- Interactive JavaScript Components
+### Home Page
+- Hero section with promotional content
+- New Arrivals and Top Selling product sections
+- Newsletter subscription section
+
+### Shop
+- Product category browsing
+- Women, Men, Kids, and Offers categories
+
+### Product Catalog
+- Product grid layout
+- Product filtering interface
+- Size and category filters
+- Product sorting options
+- Pagination UI
+
+### About Us
+- Company history section
+- Image gallery
+- Brand storytelling page
+
+### Contact Page
+- Contact information
+- Email and phone links
+- Contact form
+
+### Account Page
+- User registration form
+- Social media sign-up buttons
+- Modern authentication UI
+
+### Responsive Design
+- Desktop layout
+- Tablet layout
+- Mobile layout
+- Hamburger navigation menu
+- Mobile-friendly filtering interface
+
+### JavaScript Functionality
+- Dismissible promotional banner
+- Auto-hiding header on scroll
+- Responsive hamburger menu
 
 ## Technologies Used
 
 - HTML5
 - CSS3
-- JavaScript
+- JavaScript (ES6)
+- Font Awesome
+- Google Fonts (Montserrat)
+
+## Project Structure
+
+text index.html       - Home page 
+shop.html        - Product categories 
+women.html       - Product catalog 
+aboutus.html     - Company information 
+contact.html     - Contact page 
+account.html     - Registration page 
+styles.css       - Styling and responsive design 
+main.js          - Interactive functionality 
+
+## Learning Objectives
+
+This project was developed as part of a university Web Programming course and demonstrates:
+
+- Semantic HTML
+- CSS Flexbox and Grid
+- Responsive Web Design
+- Mobile-First Adaptation
+- JavaScript DOM Manipulation
+- User Interface Design
 
 ## Author
 
-Developed as a university web development project.
+Ani Mamuchishvili
